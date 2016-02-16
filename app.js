@@ -18,18 +18,16 @@ function makeRequests(arr) {
       let $ = cheerio.load(html);
       let obj = {};
       let characterCell = false;
-      let $infoBoxRows= $('.infobox:first-of-type').length ? $('.infobox:first-of-type>tr') :$('.infobox>tr');
+      let $infoBoxRows = $('.infobox:first-of-type').length ? $('.infobox:first-of-type>tr') :$('.infobox>tr');
       $infoBoxRows.each(function(i){
         if (i === 0) {
           obj.name = $(this).find("th").text()
         } else if( i=== 1){
           if ($(this).find("img").attr("src")){
             obj.image = "https:" + $(this).find("img").attr("src");
-            characterCell = false;
           } else {
             characterCell = true;
           }
-
         } else if (characterCell) {
           if ($(this).find("img").attr("src")){
             obj.image = "https:" + $(this).find("img").attr("src");
@@ -40,23 +38,19 @@ function makeRequests(arr) {
           let key = $(this).find("th").text().toLowerCase();
           key = key.replace(/\s/, "_");
           if (key !== "information"){
-            let values = $(this).find("td").text().split(/\n/).filter(element=> element);
+            let values = $(this).find("td").text().split(/\n/).filter(element => element);
             obj[key] = values.length > 1 ? values : values[0];
           }
         }
       })
-      if (obj.name){
-        data.push(obj);
-        if (data.length === arr.length){
-          writeFile(data);
-        }
+      data.push(obj);
+      if (data.length === arr.length){
+        writeFile(data);
       }
     })
 
   })
 }
-
-
 
 request(url, function(err, response, html){
   if(!err) {

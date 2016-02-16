@@ -29,21 +29,34 @@
   "relatives": ["The King of Maldonia (father-in-law)", "The Queen of Maldonia (mother-in-law)", "Prince Ralphie (brother-in-law)"],
   "nationality": ["American", "Maldonian (by marriage)"]
 }, {
-  "name": "Cinderella",
-  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Cinderella_disney.png/220px-Cinderella_disney.png",
-  "first_appearance": "Cinderella (1950)",
-  "last_appearance": "Cinderella (2015)",
-  "created_by": ["Charles Perrault", "Marc Davis", "Eric Larson", "Les Clark", "Mark Henn"],
-  "portrayed_by": ["Jessy Schram (Once Upon a Time)", "Lily James (Cinderella)", "Eloise Webb (young Ella, in Cinderella)"],
-  "voiced_by": ["Ilene Woods (original film)", "Jennifer Hale (speaking, sequels/merchandise)", "Tami Tappan (singing, sequels)", "Susan Stevens Logan (singing, studio)"],
-  "aliases": ["Cinderelly (by the mice)", "Ella (real name; in live-action film only)"],
+  "name": "Merida",
+  "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Merida_disney.png",
+  "first_appearance": "Brave (2012)",
+  "last_appearance": "Sofia the First (2015)",
+  "created_by": "Brenda Chapman",
+  "voiced_by": ["Kelly Macdonald", "Peigi Barker (young child)", "Julie Fowlis (singing voice; off-screen)", "Ruth Connell (Disney Infinity 3.0, Sofia the First)"],
   "species": "Human",
   "gender": "Female",
-  "occupation": ["Noblewoman (formerly)", "Scullery maid (formerly)", "Princess", "Queen (in live-action film only)"],
-  "family": ["Unnamed father (deceased)", "Unnamed mother (deceased)", "Lady Tremaine (stepmother)", "Drizella Tremaine (older stepsister)", "Anastasia Tremaine (younger stepsister)", "Fairy Godmother"],
-  "spouse(s)": "Prince Charming",
-  "children": "Prince Chad Charming (son; in Descendants only)",
-  "relatives": ["The King (father-in-law)", "The Queen (mother-in-law, deceased)", "The Baker (stepbrother-in-law)"]
+  "occupation": "Heiress apparent",
+  "title": "Princess of DunBroch",
+  "family": ["King Fergus (father)", "Queen Elinor (mother)", "Princes Harris, Hubert and Hamish (younger brothers)"],
+  "nationality": "Scottish"
+}, {
+  "name": "Princess Jasmine",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Princess_Jasmine_disney.png/220px-Princess_Jasmine_disney.png",
+  "first_appearance": "Aladdin (1992)",
+  "last_appearance": "Sofia the First (2013)",
+  "created_by": ["Ron Clements", "John Musker"],
+  "portrayed_by": "Courtney Reed (originated Broadway role)",
+  "voiced_by": ["Linda Larkin (speaking)", "Lea Salonga (singing, first film and the Disney Princess franchise)", "Liz Callaway (singing, The Return of Jafar and Aladdin and the King of Thieves)", "Bobbi Page (Mickey's Magical Christmas: Snowed in at the House of Mouse)"],
+  "age": "unknown, presented as a teenager(first film)",
+  "species": "Human",
+  "gender": "Female",
+  "title": "Princess",
+  "family": ["The Sultan (father)", "Unnamed mother (deceased)"],
+  "spouse(s)": "Aladdin",
+  "relatives": ["Cassim (father-in-law)", "Aladdin's unnamed mother (mother-in-law, deceased)"],
+  "nationality": "Arabian"
 }, {
   "name": "Pocahontas",
   "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Pocahontas_Disney.png",
@@ -60,6 +73,19 @@
   "significant_other(s)": "John Smith (former lover)",
   "nationality": "Powhatan Confederacy (Native American)"
 }, {
+  "name": "Aurora",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Princess_aurora_disney.png/220px-Princess_aurora_disney.png",
+  "first_appearance": "Sleeping Beauty (1959)",
+  "created_by": "Charles Perrault",
+  "voiced_by": "Mary Costa",
+  "full_name": "Princess Aurora",
+  "aliases": "Briar Rose",
+  "species": "Human",
+  "gender": "Female",
+  "occupation": "Princess",
+  "family": ["King Stefan (father)", "Queen Leah (mother)"],
+  "significant_other(s)": "Prince Philip"
+}, {
   "name": "Mulan",
   "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Mulan_disney.png",
   "first_appearance": "Mulan (1998)",
@@ -74,18 +100,33 @@
   "relatives": "Grandmother Fa",
   "nationality": "Chinese"
 }, {
-  "name": "Aurora",
-  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Princess_aurora_disney.png/220px-Princess_aurora_disney.png",
-  "first_appearance": "Sleeping Beauty (1959)",
-  "created_by": "Charles Perrault",
-  "voiced_by": "Mary Costa",
-  "full_name": "Princess Aurora",
-  "aliases": "Briar Rose",
+  "name": "Cinderella",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Cinderella_disney.png/220px-Cinderella_disney.png",
+  "first_appearance": "Cinderella (1950)",
+  "last_appearance": "Cinderella (2015)",
+  "created_by": ["Charles Perrault", "Marc Davis", "Eric Larson", "Les Clark", "Mark Henn"],
+  "portrayed_by": ["Jessy Schram (Once Upon a Time)", "Lily James (Cinderella)", "Eloise Webb (young Ella, in Cinderella)"],
+  "voiced_by": ["Ilene Woods (original film)", "Jennifer Hale (speaking, sequels/merchandise)", "Tami Tappan (singing, sequels)", "Susan Stevens Logan (singing, studio)"],
+  "aliases": ["Cinderelly (by the mice)", "Ella (real name; in live-action film only)"],
+  "species": "Human",
+  "gender": "Female",
+  "occupation": ["Noblewoman (formerly)", "Scullery maid (formerly)", "Princess", "Queen (in live-action film only)"],
+  "family": ["Unnamed father (deceased)", "Unnamed mother (deceased)", "Lady Tremaine (stepmother)", "Drizella Tremaine (older stepsister)", "Anastasia Tremaine (younger stepsister)", "Fairy Godmother"],
+  "spouse(s)": "Prince Charming",
+  "children": "Prince Chad Charming (son; in Descendants only)",
+  "relatives": ["The King (father-in-law)", "The Queen (mother-in-law, deceased)", "The Baker (stepbrother-in-law)"]
+}, {
+  "name": "Rapunzel",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Rapunzel_tangled.png/300px-Rapunzel_tangled.png",
+  "first_appearance": "Tangled (2010)",
+  "last_appearance": "Tangled Ever After (2012)",
+  "created_by": ["Glen Keane", "The Brothers Grimm (original story)"],
+  "voiced_by": ["Mandy Moore", "Delaney Rose Stein (as a child)"],
+  "age": "17 (18th birthday at the third act of the film)",
   "species": "Human",
   "gender": "Female",
   "occupation": "Princess",
-  "family": ["King Stefan (father)", "Queen Leah (mother)"],
-  "significant_other(s)": "Prince Philip"
+  "family": ["The King of Corona (father)", "The Queen of Corona (mother)", "Mother Gothel (foster mother)"]
 }, {
   "name": "Ariel\n\"The Little Mermaid\"",
   "image": "https://upload.wikimedia.org/wikipedia/en/7/77/Ariel_disney.png",
@@ -103,31 +144,6 @@
   "children": "Princess Melody (daughter)",
   "nationality": "Atlantean"
 }, {
-  "name": "Rapunzel",
-  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Rapunzel_tangled.png/300px-Rapunzel_tangled.png",
-  "first_appearance": "Tangled (2010)",
-  "last_appearance": "Tangled Ever After (2012)",
-  "created_by": ["Glen Keane", "The Brothers Grimm (original story)"],
-  "voiced_by": ["Mandy Moore", "Delaney Rose Stein (as a child)"],
-  "age": "17 (18th birthday at the third act of the film)",
-  "species": "Human",
-  "gender": "Female",
-  "occupation": "Princess",
-  "family": ["The King of Corona (father)", "The Queen of Corona (mother)", "Mother Gothel (foster mother)"]
-}, {
-  "name": "Merida",
-  "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Merida_disney.png",
-  "first_appearance": "Brave (2012)",
-  "last_appearance": "Sofia the First (2015)",
-  "created_by": "Brenda Chapman",
-  "voiced_by": ["Kelly Macdonald", "Peigi Barker (young child)", "Julie Fowlis (singing voice; off-screen)", "Ruth Connell (Disney Infinity 3.0, Sofia the First)"],
-  "species": "Human",
-  "gender": "Female",
-  "occupation": "Heiress apparent",
-  "title": "Princess of DunBroch",
-  "family": ["King Fergus (father)", "Queen Elinor (mother)", "Princes Harris, Hubert and Hamish (younger brothers)"],
-  "nationality": "Scottish"
-}, {
   "name": "Belle",
   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Belle_disney.png/220px-Belle_disney.png",
   "first_appearance": "Beauty and the Beast (1991)",
@@ -140,20 +156,4 @@
   "family": "Maurice (father)",
   "spouse(s)": "Prince Adam",
   "nationality": "French"
-}, {
-  "name": "Princess Jasmine",
-  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Princess_Jasmine_disney.png/220px-Princess_Jasmine_disney.png",
-  "first_appearance": "Aladdin (1992)",
-  "last_appearance": "Sofia the First (2013)",
-  "created_by": ["Ron Clements", "John Musker"],
-  "portrayed_by": "Courtney Reed (originated Broadway role)",
-  "voiced_by": ["Linda Larkin (speaking)", "Lea Salonga (singing, first film and the Disney Princess franchise)", "Liz Callaway (singing, The Return of Jafar and Aladdin and the King of Thieves)", "Bobbi Page (Mickey's Magical Christmas: Snowed in at the House of Mouse)"],
-  "age": "unknown, presented as a teenager(first film)",
-  "species": "Human",
-  "gender": "Female",
-  "title": "Princess",
-  "family": ["The Sultan (father)", "Unnamed mother (deceased)"],
-  "spouse(s)": "Aladdin",
-  "relatives": ["Cassim (father-in-law)", "Aladdin's unnamed mother (mother-in-law, deceased)"],
-  "nationality": "Arabian"
 }]
